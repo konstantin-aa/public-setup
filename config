@@ -1,5 +1,0 @@
-Host *
-  IgnoreUnknown UseKeychain
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentityFile ~/.ssh/konstantin-aa-github

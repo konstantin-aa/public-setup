@@ -1,4 +1,4 @@
-sh github-ssh.sh 
+sh ./ssh/github/github-ssh.sh 
 sudo sh node-install.sh
-sh brew-packages.sh
-sh paste-config.sh
+sh ./brew/brew-packages.sh
+sh ./vim/paste-config.sh
