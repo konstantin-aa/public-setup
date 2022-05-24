@@ -1,2 +1,2 @@
 rm ~/.vimrc
-cp pal-vim-config.txt ~/.vimrc
+cp pal-vim-config.vimrc ~/.vimrc

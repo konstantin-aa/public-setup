@@ -41,9 +41,7 @@ Plug 'elixir-lsp/coc-elixir', {'do': 'yarn install && yarn prepack'}
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-
-Plug 'sheerun/vim-polyglot'
+Plug 'sheerun/vim-polyglot', {'branch':'master'}
 call plug#end()
 " Enable syntax highlighting
 syntax on
@@ -227,6 +225,3 @@ if (has('termguicolors'))
   set termguicolors
 endif
 let g:airline_theme = 'material'
-
-"Override theme colours
-highlight Constant ctermfg=2 guifg=#c3e88dl
