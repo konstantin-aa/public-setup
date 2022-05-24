@@ -1,3 +1,4 @@
 # setup
 
-- what to do manually?
+manually:
+- ssh-add key, and copy paste into github
