@@ -42,6 +42,8 @@ Plug 'elixir-lsp/coc-elixir', {'do': 'yarn install && yarn prepack'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'sheerun/vim-polyglot', {'branch':'master'}
+
+Plug 'mhinz/vim-mix-format'
 call plug#end()
 " Enable syntax highlighting
 syntax on
