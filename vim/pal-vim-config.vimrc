@@ -6,10 +6,6 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-" Highlight cursor line underneath the cursor horizontally.
-set cursorline
-
-" Highlight cursor line underneath the cursor vertically.
 
 " Enable auto completion menu after pressing TAB.
 set wildmenu
@@ -44,9 +40,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot', {'branch':'master'}
 
 Plug 'mhinz/vim-mix-format'
+
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 call plug#end()
-" Enable syntax highlighting
-syntax on
 
 " Enables filetype detection, loads ftplugin, and loads indent
 " (Not necessary on nvim and may not be necessary on vim 8.2+)
@@ -219,11 +215,8 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-"material"
-"Theme settings
-let g:material_theme_style = "ocean"
+
+let g:material_terminal_italics = 1
+let g:material_theme_style = 'ocean'
 colorscheme material
-if (has('termguicolors'))
-  set termguicolors
-endif
-let g:airline_theme = 'material'
+
