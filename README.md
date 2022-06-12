@@ -7,3 +7,4 @@ manually:
   elixirc_options: [debug_info: Mix.env() == :dev]
 - coc and plug install list:
 - get the list of stuff
+- using ufw
