@@ -42,6 +42,8 @@ Plug 'sheerun/vim-polyglot', {'branch':'master'}
 Plug 'mhinz/vim-mix-format'
 
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " Enables filetype detection, loads ftplugin, and loads indent
