@@ -225,3 +225,10 @@ colorscheme material
 " 'cd' towards the directory in which the current file is edited
 " but only change the path for the current window
 command Cd :lcd %:h
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
