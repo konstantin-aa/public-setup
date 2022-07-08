@@ -221,4 +221,7 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 let g:material_terminal_italics = 1
 let g:material_theme_style = 'ocean'
 colorscheme material
-
+" user defined commands :)
+" 'cd' towards the directory in which the current file is edited
+" but only change the path for the current window
+command Cd :lcd %:h
