@@ -224,4 +224,4 @@ colorscheme material
 
 " 'cd' towards the directory in which the current file is edited
 " but only change the path for the current window
-nnoremap <leader>cd :lcd %:h<CR>
+command Cd :lcd %:h
