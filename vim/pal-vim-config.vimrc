@@ -225,6 +225,7 @@ colorscheme material
 " 'cd' towards the directory in which the current file is edited
 " but only change the path for the current window
 command Cd :lcd %:h
+
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
@@ -232,3 +233,7 @@ inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
+
+" replaces control b and f
+nmap <S-Up> <Up><Up><Up>
+nmap <S-Down> <Down><Down><Down>
