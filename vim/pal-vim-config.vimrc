@@ -240,9 +240,4 @@ inoremap {;<CR> {<CR>};<ESC>O
 nmap <S-Up> <Up><Up><Up>
 nmap <S-Down> <Down><Down><Down>
 
-" python code formatting
-augroup black_on_save
-  autocmd!
-  autocmd BufWritePre *.py Black
-augroup end
 

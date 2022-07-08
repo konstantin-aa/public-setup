@@ -1,4 +1,6 @@
 {
   "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
-  "python.jediEnabled": false
+  "python.jediEnabled": false,
+  "python.formatting.provider": "black",
+  "coc.preferences.formatOnSaveFiletypes": ["python"]
 }
