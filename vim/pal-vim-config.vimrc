@@ -44,6 +44,8 @@ Plug 'mhinz/vim-mix-format'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 
 Plug 'tpope/vim-fugitive'
+
+Plug 'psf/black', { 'branch': 'stable' }
 call plug#end()
 
 " Enables filetype detection, loads ftplugin, and loads indent
